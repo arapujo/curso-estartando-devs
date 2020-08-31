@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+ /* Estilização INDEX */
+
+.container-index {
+   background-color: #000;
+   height: 100vh;
+}
+
+img.logo-index {
+   margin: 0 auto;
+   display: block;
+   width: 700px;
+   height: 500px;
+}
+
+.icon-seta{
+   width: 70px;
+   height: 40px;
+   display: block;
+   margin: 0 auto;
+   margin-top: -100px;
+   transition: 0.5s;
+}
+
+.icon-seta:hover{
+   opacity: 0.5;
+}
+
+/* Estilização Menu */
+
+.menu-bar{
+   clear:both;
+   overflow:auto;
+   background-color: #000;
+   height: 80px;
+ }
+ 
+ ul{
+   float:right;
+   list-style: none;
+   }
+ 
+ .logo img{
+   float:left;
+   height: 80px;
+   width: 200px;
+   margin-left: 10px;
+  }
+ 
+  ul li{
+   display: inline-block; 
+   padding:10px;
+   font-size:18px; 
+   font-family:'Roboto Slab', serif;
+   text-transform: uppercase;
+   margin-top: 10px;
+   transition: 0.5s;
+ }
+
+ ul li a {
+   text-decoration: none;
+   color: white;
+ }
+
+ ul li:hover{
+   opacity: 0.5;
+ }
+
+ /* Estilização Galeria */
+
+
+ .container-galeria{
+   max-width: 1000px;
+   margin: auto;
+ }
+ .portifolio {
+    margin-top: 50px;
+ }
+
+ .galeria{
+   float: left; 
+   margin: 0 auto;
+   padding: 5px;
+ }
+ 
+ .image {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    transition: all .2s ease-in-out;
+ }
+ .image:hover {
+   transform: scale(1.2)
+ }
+
